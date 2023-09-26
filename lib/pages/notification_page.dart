@@ -16,7 +16,7 @@ class _NotificationScreenState extends State<NotificationScreen> {
     final message = ModalRoute.of(context)!.settings.arguments as RemoteMessage;
     return Scaffold(
       appBar: AppBar(
-        title: Text('ssdsddsdsds'),
+        title: Text('Notification screen'),
       ),
       body: Column(
         children: [

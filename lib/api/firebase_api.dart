@@ -18,6 +18,7 @@ class FirebaseApi {
     // print the token (normally you would send this to your server)
 
     print('the token of the fcm $fcmToken');
+    initPushNotification();
   }
 
   // function to handle received messages
@@ -30,7 +31,7 @@ class FirebaseApi {
     // navigate to new screen when messqage is received and user taps notification
 
     navigatorKey.currentState?.pushNamed(
-      '/notification_page',
+      '/notification_screen',
       arguments: message,
     );
   }

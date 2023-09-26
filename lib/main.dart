@@ -28,7 +28,7 @@ class _MyAppState extends State<MyApp> {
       home: const HomePage(),
       navigatorKey: navigatorKey,
       routes: {
-        '/notification_page': (context) => const NotificationScreen(),
+        '/notification_screen': (context) => const NotificationScreen(),
       },
     );
   }
